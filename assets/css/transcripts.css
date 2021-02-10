@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier Prime', monospace;
+  font-size: 12pt;
+}
+
+body {
+  width: 100vw;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section {
+  margin-top: 1.2rem;
+}
+
+main {
+  background-color: #eee;
+  width: 210mm;
+}
+
+main .script {
+  margin-top: 6rem;
+  margin-left: 9rem;
+  margin-right: 6rem;
+}
+
+main .script .scene-setting p {
+  font-weight: bold;
+}
+
+main .script .section-dialogue .character p {
+  text-transform: uppercase;
+  margin-left: 13.2rem;
+}
+
+main .script .section-dialogue .dialogue p {
+  margin-left: 6rem;
+}
+
+main .script .section-dialogue .dialogue .paranthetical {
+  color: red;
+  text-transform: uppercase;
+}
+
+main .script .cut-to p {
+  text-align: right;
+}
+/*# sourceMappingURL=transcripts.css.map */
